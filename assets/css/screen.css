@@ -8,6 +8,10 @@
     --head-nav-gap: 3.2rem;
 }
 
+.gh-head {
+  background: linear-gradient(60deg,#ee2b4c,#fee140);
+}
+
 .gh-btn {
     padding-right: 1.6rem;
     padding-left: 1.6rem;

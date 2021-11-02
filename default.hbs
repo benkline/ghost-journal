@@ -47,30 +47,34 @@
 
         {{{body}}}
 
-        {{^if @member.paid}}
-            <div class="gh-subscribe">
-                <div class="gh-outer">
-                    <section class="gh-subscribe-inner">
-                      <h3 class="gh-subscribe-title">Thanks for visiting {{@site.title}}</h3>
-                        {{^if @member}}
-                        
-                            <div class="gh-subscribe-description">Subscribing will let me send you emails when I write new content - and nothing else - I promise!</div>
+        <div class="gh-subscribe">
+            <div class="gh-outer">
+                <section class="gh-subscribe-inner">
+                  <h3 class="gh-subscribe-title">Thanks for visiting {{@site.title}}</h3>
+                    {{^if @member}}
+                        <div class="gh-subscribe-description">Subscribing will let me send you emails when I write new content - and nothing else - I promise.</div>
 
-                            <a class="gh-subscribe-input" href="#/portal/signup">
-                                <div class="gh-subscribe-input-text">
-                                    {{> icons/email}}
-                                    you@example.com
-                                </div>
-                                <div class="gh-subscribe-input-btn">Subscribe</div>
-                            </a>
-                        
-                        {{/if}}
-                    </section>
-                </div>
+                        <a class="gh-subscribe-input" href="#/portal/signup">
+                            <div class="gh-subscribe-input-text">
+                                {{> icons/email}}
+                                you@example.com
+                            </div>
+                            <div class="gh-subscribe-input-btn">Subscribe</div>
+                        </a>
+                    {{/if}}
+                </section>
             </div>
-        {{/if}}
-
+        </div>
+           
         <footer class="gh-foot gh-outer">
+            <div class="bk-inner">    
+                <a class="" href="" target="_blank" rel="noopener">{{> icons/twitter}}</a>
+                <a class="" href="" target="_blank" rel="noopener">{{> icons/facebook}}</a>
+                <a class="" href="" target="_blank" rel="noopener">{{> icons/linkedin}}</a>
+                <a class="" href="" target="_blank" rel="noopener">{{> icons/instagram}}</a>
+                <a class="" href="" target="_blank" rel="noopener">{{> icons/github}}</a>
+                <a class="" href="" target="_blank" rel="noopener">{{> icons/youtube}}</a>
+            </div>
             <div class="gh-foot-inner gh-inner">
                 <div class="gh-copyright">
                     {{@site.title}} © {{date format="YYYY"}}

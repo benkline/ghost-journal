@@ -7,6 +7,13 @@
     --content-letter-spacing: -0.01em;
     --head-nav-gap: 3.2rem;
 }
+.bk-inner{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+  grid-auto-flow: column;
+}
 
 .gh-head {
   background: linear-gradient(60deg,#ee2b4c,#fee140);

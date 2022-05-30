@@ -1,4 +1,5 @@
-# benkline.com
+# klinecraft
+
 Based on Journal - a newsletter theme for [Ghost](http://github.com/tryghost/ghost/)
 
 Built locally using https://github.com/TryGhost/Themes
